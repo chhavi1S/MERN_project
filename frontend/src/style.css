@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #daca73;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #e6714e;
+    margin-top: 50px;
+}
+
+/* Book List Styles */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.book {
+    background: rgb(224, 223, 147);
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+
+/* .book img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+} */
+
+.book h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.book p {
+    font-size: 14px;
+    color: #666;
+}
+
+.book span {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.delete {
+    background: #e74c3c;
+    color: white;
+}
+
+.delete:hover {
+    background: #c0392b;
+}
+
+.update {
+    background: #f39c12;
+    color: white;
+}
+
+.update a {
+    text-decoration: none;
+    color: white;
+}
+
+.update:hover {
+    background: #d68910;
+}
+
+/* Add & Update Forms */
+.form {
+    width: 50%;
+    margin: auto;
+    background: rgb(230, 231, 135);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   
+    margin-top: 100px;
+}
+
+.form h1 {
+    color: #d68910;
+}
+
+.form input {
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.formButton {
+    /* margin-top: 50px; */
+    background: #ca6f33;
+    color: white;
+    font-size: 16px;
+}
+
+.formButton:hover {
+    background: #daaa0f;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
